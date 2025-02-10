@@ -36,7 +36,7 @@ const PokemonCard = () => {
             <div className="move-header">
               <span>❤️❤️❤️❤️</span>
               <span className="move-name">I Choose You!</span>
-              <span className="move-pp">50 PP</span>
+              <span className="move-pp">500 PP</span>
             </div>
             
             <p className="move-description">
