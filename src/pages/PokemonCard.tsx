@@ -10,7 +10,7 @@ const PokemonCard = () => {
             <div className="navigation-icons">
         <HomeIcon 
           className="nav-icon"
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/valentines25/')}
         />
         <MailIcon 
           className="nav-icon"

@@ -11,7 +11,7 @@ const LoveLetter = () => {
       <div className="navigation-icons">
         <HomeIcon 
           className="nav-icon"
-          onClick={() => navigate('/')}
+          onClick={() => navigate('/valentines25/')}
         />
         <CreditCardIcon 
           className="nav-icon"
