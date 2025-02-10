@@ -26,7 +26,7 @@ const PokemonCard = () => {
           
           <div>
             <img
-              src="/pokemon_card_image.jpg"
+              src="/card.jpg"
               className="card-image"
             />
           </div>
