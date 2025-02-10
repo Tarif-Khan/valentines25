@@ -1,0 +1,109 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #fdf2f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.content-wrapper {
+  text-align: center;
+}
+
+.heart-icon {
+  width: 5rem;
+  height: 5rem;
+  color: #ec4899;
+  margin: 0 auto 2rem auto;
+  animation: pulse 2s infinite;
+}
+
+.title {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  color: #db2777;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.button {
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.button-yes {
+  background-color: #ec4899;
+  color: white;
+}
+
+.button-yes:hover {
+  background-color: #db2777;
+}
+
+.button-no {
+  background-color: #9ca3af;
+  color: white;
+}
+
+.button-no:hover {
+  background-color: #6b7280;
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: #ef4444;
+  font-weight: bold;
+  animation: bounce 1s infinite;
+}
+
+.gradient-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.gradient-overlay {
+  height: 8rem;
+  background: linear-gradient(to top, #fce7f3, transparent);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}

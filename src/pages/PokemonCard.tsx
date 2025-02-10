@@ -1,34 +1,41 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { GamepadIcon } from 'lucide-react';
+import '../styles/PokemonCard.css';
 
 const PokemonCard = () => {
   return (
-    <div className="min-h-screen bg-pink-50 flex items-center justify-center p-4">
-      <div className="w-96 bg-gradient-to-br from-pink-300 to-pink-400 rounded-xl p-4 transform hover:scale-105 transition-transform duration-300 shadow-xl">
-        <div className="bg-white rounded-lg p-6">
-          <div className="flex justify-between items-start mb-4">
-            <h2 className="text-2xl font-bold">The Valentine 2025</h2>
-            <span className="text-pink-600 font-bold">❤️</span>
+    <div className="card-container">
+      <div className="pokemon-card">
+        <div className="card-content">
+          <div className="card-header">
+            <h2 className="card-title">The Valentine 2025</h2>
+            <span>❤️</span>
           </div>
           
-          <div className="mb-6">
+          <div>
             <img
-              src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&auto=format&fit=crop&q=60"
+              src="https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=500&auto=format&fit=crop&q=60"
               alt="Valentine"
-              className="w-full h-48 object-cover rounded-lg"
+              className="card-image"
             />
           </div>
           
-          <div className="border-t border-gray-200 pt-4">
-            <div className="flex items-center mb-4">
-              <Heart className="w-6 h-6 text-pink-500 mr-2" />
-              <span className="font-bold text-lg">I Love You</span>
-              <span className="ml-auto text-gray-600">50 PP</span>
+          <div className="move-section">
+            <div className="move-header">
+              <span>❤️❤️❤️❤️</span>
+              <span className="move-name">I Love You</span>
+              <span className="move-pp">50 PP</span>
             </div>
             
-            <p className="text-gray-700 italic">
+            <p className="move-description">
               "Tarif professes his love for you whenever this move is used. Thank you for being a part of my life."
             </p>
+          </div>
+
+          <div className="card-footer">
+            <GamepadIcon className="w-6 h-6" />
+            <span>❤️</span>
+            <GamepadIcon className="w-6 h-6" />
           </div>
         </div>
       </div>
