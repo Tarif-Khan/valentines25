@@ -11,7 +11,7 @@ const LoveLetter = () => {
       <div className="navigation-icons">
         <HomeIcon 
           className="nav-icon"
-          onClick={() => navigate('/valentines25/')}
+          onClick={() => navigate('/')}
         />
         <CreditCardIcon 
           className="nav-icon"
@@ -30,7 +30,7 @@ const LoveLetter = () => {
           <p>I'm the luckiest person alive to call you mine. Without a doubt, I would like to choose you to be my Valentine, for this year and for all of the ones to come.</p>
         </div>
         <div className="letter-closing">
-          <p>Forever Yours,</p>
+          <p>Forever Yours,</p> 
           <p>Tarif</p>
         </div>
       </div>
