@@ -8,8 +8,8 @@ const PokemonCard = () => {
       <div className="pokemon-card">
         <div className="card-content">
           <div className="card-header">
-            <h2 className="card-title">The Valentine 2025</h2>
-            <span>❤️</span>
+            <h2 className="card-title">The Valentine's</h2>
+            <span>2025 ❤️</span>
           </div>
           
           <div>
@@ -23,12 +23,12 @@ const PokemonCard = () => {
           <div className="move-section">
             <div className="move-header">
               <span>❤️❤️❤️❤️</span>
-              <span className="move-name">I Love You</span>
+              <span className="move-name">I Choose You!</span>
               <span className="move-pp">50 PP</span>
             </div>
             
             <p className="move-description">
-              "Tarif professes his love for you whenever this move is used. Thank you for being a part of my life."
+              "I love you more than anything. Thank you for being a part of my life. Will you be my Valentine this year, and every year after?"
             </p>
           </div>
 
