@@ -2,6 +2,7 @@ import React from 'react';
 import { GamepadIcon, HomeIcon, MailIcon } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/PokemonCard.css';
+import cardImage from '../assets/card.jpg';
 
 const PokemonCard = () => {
   const navigate = useNavigate();
@@ -26,7 +27,7 @@ const PokemonCard = () => {
           
           <div>
             <img
-              src="/card.jpg"
+              src={cardImage} 
               className="card-image"
             />
           </div>
