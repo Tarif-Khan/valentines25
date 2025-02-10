@@ -1,10 +1,22 @@
 import React from 'react';
-import { GamepadIcon } from 'lucide-react';
+import { GamepadIcon, HomeIcon, MailIcon } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/PokemonCard.css';
 
 const PokemonCard = () => {
+  const navigate = useNavigate();
   return (
     <div className="card-container">
+            <div className="navigation-icons">
+        <HomeIcon 
+          className="nav-icon"
+          onClick={() => navigate('/')}
+        />
+        <MailIcon 
+          className="nav-icon"
+          onClick={() => navigate('/love-letter')}
+        />
+        </div>
       <div className="pokemon-card">
         <div className="card-content">
           <div className="card-header">
@@ -14,8 +26,7 @@ const PokemonCard = () => {
           
           <div>
             <img
-              src="https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=500&auto=format&fit=crop&q=60"
-              alt="Valentine"
+              src="/pokemon_card_image.jpg"
               className="card-image"
             />
           </div>
@@ -28,7 +39,7 @@ const PokemonCard = () => {
             </div>
             
             <p className="move-description">
-              "I love you more than anything. Thank you for being a part of my life. Will you be my Valentine this year, and every year after?"
+              "Sonia, love you more than anything. Thank you for being a part of my life. Will you be my Valentine this year, and every year after?"
             </p>
           </div>
 

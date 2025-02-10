@@ -1,0 +1,155 @@
+.letter-container {
+    min-height: 100vh;
+    background-color: #fdf2f8;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  @media (min-width: 640px) {
+    .letter-container {
+      padding: 2rem;
+    }
+  }
+  
+  .navigation-icons {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    z-index: 50;
+  }
+  
+  @media (min-width: 640px) {
+    .navigation-icons {
+      top: 2rem;
+      left: 2rem;
+      gap: 1rem;
+    }
+  }
+  
+  .nav-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    color: #db2777;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+    background-color: white;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (min-width: 640px) {
+    .nav-icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  
+  .nav-icon:hover {
+    transform: scale(1.1);
+    color: #ec4899;
+  }
+  
+  .letter-content {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-image: 
+      linear-gradient(to right, #fce7f3 1px, transparent 1px),
+      linear-gradient(to bottom, #fce7f3 1px, transparent 1px);
+    background-size: 20px 20px;
+    margin: 0 0.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .letter-content {
+      padding: 2rem;
+      margin: 0 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .letter-content {
+      padding: 3rem;
+      margin: 0;
+    }
+  }
+  
+  .letter-title {
+    font-size: 2rem;
+    color: #db2777;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  @media (min-width: 640px) {
+    .letter-title {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  .letter-body {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4a5568;
+  }
+  
+  @media (min-width: 640px) {
+    .letter-body {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+  }
+  
+  .letter-body p {
+    margin-bottom: 1.25rem;
+  }
+  
+  @media (min-width: 640px) {
+    .letter-body p {
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  .letter-body p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .letter-body p:first-of-type::first-letter {
+    initial-letter: 2;
+    -webkit-initial-letter: 2;
+    color: #db2777;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+  
+  .letter-closing {
+    margin-top: 1.5rem;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+    color: #db2777;
+  }
+  
+  @media (min-width: 640px) {
+    .letter-closing {
+      margin-top: 2rem;
+    }
+  }
+  
+  .letter-closing p {
+    margin: 0;
+    line-height: 1.5;
+  }
