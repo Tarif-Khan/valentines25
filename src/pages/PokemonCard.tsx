@@ -39,7 +39,7 @@ const PokemonCard = () => {
             </div>
             
             <p className="move-description">
-              "Sonia, love you more than anything. Thank you for being a part of my life. Will you be my Valentine this year, and every year after?"
+              "Sonia, I love you more than anything. Thank you for being a part of my life. Will you be my Valentine this year, and every year after?"
             </p>
           </div>
 

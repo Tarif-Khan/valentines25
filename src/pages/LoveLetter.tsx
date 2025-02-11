@@ -25,7 +25,7 @@ const LoveLetter = () => {
           
           <p>Your smile brightens even my darkest days, and your laugh lights up every room. The way you understand me, support my dreams, and stand by my side makes me fall in love with you more and more each day.</p>
           
-          <p>This Valentine's Day, I want you to know that you're not just my girlfriend – you're my best friend, my confidante, and my partner in life. The love we share is my most treasured gift, and I promise to cherish and nurture it every single day.</p>
+          <p>This Valentine's Day, I want you to know that you're not just my girlfriend, you're my best friend, my future wife, and my partner in life. The love we share is my most treasured gift, and I promise to cherish and nurture it every single day.</p>
           
           <p>I'm the luckiest person alive to call you mine. Without a doubt, I would like to choose you to be my Valentine, for this year and for all of the ones to come.</p>
         </div>
